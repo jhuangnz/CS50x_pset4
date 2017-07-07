@@ -1,0 +1,19 @@
+INSTRUCTIONS:
+
+RECOVER:
+1) In terminal:
+   $ cd recover
+   $ ./recover corruptCard.raw
+   
+   The program will perform forensics to unscramble data in 'corruptCard.raw' to reveal hidden jpegs.
+   Jpegs are outputted to same folder.
+   
+
+RESIZE:
+1) In terminal:
+   $ cd resize
+   $ ./resize [n] [infile] [outfile]
+   (e.g: $ ./resize 3 smiley.bmp bigger-smiley.bmp)
+   
+   The program will resize a bmp image [infile] by a factor of [n].
+   The output [outfile] is stored in same folder.
